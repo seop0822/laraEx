@@ -10,6 +10,6 @@ class Task extends Model
 
     public function project()
     {
-        return $this->belongsTo(Project::clas);
+        return $this->belongsTo(Project::class);
     }
 }
